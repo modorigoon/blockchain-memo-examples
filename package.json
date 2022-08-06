@@ -1,0 +1,36 @@
+{
+  "name": "blockchain-memo-examples",
+  "version": "0.1.0",
+  "description": "Block-chain memo examples",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/modorigoon/blockchain-memo-examples.git"
+  },
+  "keywords": [
+    "blockchain",
+    "fabric",
+    "klytn",
+    "line",
+    "luniverse",
+    "trace",
+    "memo"
+  ],
+  "bugs": {
+    "url": "https://github.com/modorigoon/blockchain-memo-examples/issues"
+  },
+  "homepage": "https://github.com/modorigoon/blockchain-memo-examples#readme",
+  "dependencies": {
+    "caver-js": "^1.5.7",
+    "lodash": "^4.17.21",
+    "crypto-js": "^4.0.0",
+    "axios": "^0.21.1",
+    "moment": "^2.29.1",
+    "fabric-network": "^2.2.5"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
